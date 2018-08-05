@@ -11,7 +11,7 @@
   "author": "Yotam Achrak",
   "license": "ISC",
   "engines": {
-    "node": "0.10.x"
+    "node": "6.2.2"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
