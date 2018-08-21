@@ -32,7 +32,7 @@ const todos = [{
 
 const populateTodos = (done) => {
   Todo.remove({}).then(() => {
-    return Todo.insertMany(todos);
+    Todo.insertMany(todos);
   }).then(() => done());
 };
 
